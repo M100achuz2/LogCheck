@@ -11,5 +11,5 @@ token = <your token>
 ```
 + Run the app, using waitress:
 ```bazaar
-waitress-serve --call 'app:app'
+waitress-serve 'app:app'
 ```
