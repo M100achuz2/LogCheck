@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="icon" href="https://hadran.net/wp-content/uploads/2020/07/cropped-favicon-192x192.jpg" sizes="192x192" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+    <title>תוצאות עבור - {{ info["query"] }}</title>
+</head>
+<body>
+
+    <table>
+
+    <tr>
+        <th>שם קובץ</th><th>תאריך קבלה</th><th>קישור ללוג</th>
+    </tr>
+    {% for file in info["match"] %}
+    <tr>
+        <td>{{ file["file_name"] }}</td>
+        <td>{{ file["date"] }}</td>
+        <td>{{ file["url"] }}</td>
+    </tr>
+    {% endfor %} 
+
+    </table>
+
+    <a href="/" class="home">חזרה לדף הבית</a>
+    
+</body>
+</html>

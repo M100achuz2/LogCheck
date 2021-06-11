@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap");
+body {
+  font-family: 'Miriam Libre', sans-serif;
+  background: blanchedalmond;
+  color: #3d1717;
+  text-align: center;
+  padding: 1em;
+}
+
+.no-res {
+  margin: 2em;
+}
+
+.home {
+  position: absolute;
+  background: #3d1717;
+  color: blanchedalmond;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.subm {
+  margin: 10px;
+  border-radius: 0;
+  background: #3d1717;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+
+.input {
+  width: 50%;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: #3d1717 solid;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3d1717;
+  color: white;
+}
+
+th {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 2em;
+}
+/*# sourceMappingURL=main.css.map */
