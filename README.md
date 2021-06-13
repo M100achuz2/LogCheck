@@ -2,7 +2,9 @@
 
 + Install the requirements packages:
 
-`pip3 install -r requirements.txt`
+```
+pip3 install -r requirements.txt
+```
 
 + Create `token.ini` file and enter the following syntax:
 ```bazaar
